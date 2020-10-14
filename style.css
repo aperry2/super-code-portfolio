@@ -1,0 +1,50 @@
+body {
+  font-family: garamond;
+}
+
+p {
+color: red;
+font-family: "Tahoma", Geneva, sans-serif;
+}
+
+h2, h3 {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #01cdfe;
+  color: #b967ff;
+}
+
+li {
+  display: inline;
+}
+
+iframe {
+  border: none;
+}
